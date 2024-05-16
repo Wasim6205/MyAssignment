@@ -1,0 +1,38 @@
+.company-section{
+    margin-top: 40px;
+    background-color: #FFFCEA;
+    min-height: 329px;
+    padding: 24px;
+}
+.company-section h3{
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 72px;
+    text-align: center;
+}
+.companies{
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.company{
+    height: 133px;
+    width: 257px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    padding: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+}
+
+@media screen and (max-width: 950px) {
+    .company-section h3{
+        line-height: 35px;
+        font-size: 28px;
+    }
+  }

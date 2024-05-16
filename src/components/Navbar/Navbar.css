@@ -1,0 +1,27 @@
+.navbar{
+    background-color: #3B3B3E;
+    padding: 12px 10px 12px 10px;
+    justify-content: center;
+    align-items: center;
+    max-width: 1440px;
+}
+.navlink{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    list-style: none;
+}
+.navitem{
+    font-size: 16px;
+    color: #CFD0D2;
+    cursor: pointer;
+    font-weight: 400;
+    border-bottom: 2px solid transparent;
+    transition: all 0.3s ease-in-out;
+}
+.navitem:hover{
+    border-bottom: 2px solid #FFA50B;
+}
+.active{
+    border-bottom: 2px solid #FFA50B;
+}

@@ -1,0 +1,106 @@
+.courses{
+    margin-top: 60px;
+    background-color: #F9EBFC;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 60px 128px;
+}
+.courses .title{
+    padding: 16px 28px;
+    text-align: center;
+    margin: 0 auto;
+    background-color: #F4D6F8;
+    border-radius: 100px;
+    color: #992E9D;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    /* width: 416px; */
+}
+.courses .heading{
+    text-align: center;
+    font-weight: 700;
+    font-size: 48px;
+}
+.courses .heading span{
+    color: #992E9D;
+}
+.course{
+    background-color: white;
+    border-radius: 20px;
+    width: 100%;
+    margin: 0 auto;
+}
+.card{
+    padding: 28px;
+    display: flex;
+    justify-content: space-between;
+}
+.card > div{
+    display: flex;
+    flex-direction: column;
+}
+
+.card h3{
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 42px;
+    color: #4C4D52;
+}
+.card p{
+    color: #83848D;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+}
+.card .button{
+    background-color: #F9EBFC;
+    color: #B73BBE;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 100px;
+    padding: 5px 20px;
+    border: none;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
+}
+.border{
+    border-bottom: 1px solid #F9EBFC;
+}
+
+
+@media screen and (max-width: 750px) {
+    .courses{
+        width: 100%;
+        padding: 60px 40px;
+        margin: 0 auto;
+    }
+
+    .courses .title{
+        font-size: 14px;
+        padding: 16px 24px;
+    }
+    .courses .heading{
+        font-size: 24px;
+    }
+    .course{
+        width: 90%;
+    }
+
+    
+    .card{
+        flex-direction: column;
+        gap: 8px;
+    }
+    .card .button{
+        justify-content: center;
+        align-items: center;
+    }
+  }

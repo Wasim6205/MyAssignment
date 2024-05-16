@@ -1,0 +1,111 @@
+.enroll-section {
+  margin-top: 40px;
+  padding: 24px 128px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+.enroll-card {
+  display: flex;
+  max-width: 1184px;
+  padding: 48px;
+  border-radius: 48px;
+}
+.left {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.left h4 {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 72px;
+}
+.left .strike {
+  font-size: 25px;
+  font-weight: 400;
+}
+.left p {
+  font-size: 20px;
+  font-weight: 400;
+}
+.left button {
+  display: flex;
+  gap: 6px;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 36px;
+  background-color: #1b1b1d;
+  padding: 20px;
+  border-radius: 20px;
+  border: none;
+  color: #ffffff;
+  align-items: center;
+  width: 254px;
+  justify-content: center;
+}
+.right {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 20px;
+  justify-content: center;
+}
+.right-sec {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.right-sec p {
+  font-size: 20px;
+  font-weight: 400;
+}
+.right-sec h6 {
+  font-size: 22px;
+  font-weight: 600x;
+}
+
+.light {
+  background-color: #9747ff;
+  color: #1b1b1d;
+}
+.dark {
+  background-color: #b73bbe;
+  color: #ffffff;
+}
+
+@media screen and (max-width: 1050px) {
+  .enroll-section {
+    padding: 0px;
+    align-items: center;
+  }
+  .enroll-card {
+    flex-direction: column;
+    width: 264px;
+    gap: 32px;
+  }
+  .left{
+    width: 100%;
+  }
+  .left h4{
+    font-size: 32px;
+    line-height: 48px;
+    font-weight: 700;
+  }
+  .left .strike{
+    font-size: 20px;
+  }
+  .left p{
+    font-size: 16px;
+  }
+  .left button{
+    padding: 10px;
+    font-size: 16px;
+  }
+  .right{
+    width: 100%;
+    align-items: flex-start;
+  }
+}

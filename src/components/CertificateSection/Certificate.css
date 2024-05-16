@@ -1,0 +1,28 @@
+.certificate-section{
+    margin-top: 40px;
+    padding: 24px 128px;
+}
+.certificate-section h3{
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 72px;
+    text-align: center;
+    color: #686972;
+}
+.certificate-section h3 span{
+    color: #992E9D;
+}
+
+
+
+
+
+@media screen and (max-width: 745px) {
+    .certificate-section{
+        padding: 24px;
+    }
+    .certificate-section h3{
+        font-size: 24px;
+        line-height: 36px;
+    }
+  }

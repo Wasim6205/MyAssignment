@@ -1,0 +1,67 @@
+.refund{
+    padding: 24px 128px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.refund h3{
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 72px;
+    color: #686972;
+}
+.refund h3 span{
+    color: #992E9D;
+}
+.refund-card{
+    min-width: 598px;
+    margin: 0 auto;
+    background-color: #992E9D;
+    border-radius: 32px;
+    padding: 32px 20px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+.refund-card h4{
+    font-size: 28px;
+    font-weight: 700;
+    color: white;
+    text-align: center;
+}
+.input{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    justify-content: flex-start;
+}
+.input label{
+    font-size: 18px;
+    color: #FFFFFF;
+}
+.refund p{
+    font-size: 20px;
+    color: #FFFFFF;
+    margin-top: 4px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    justify-content: center;
+}
+
+
+
+@media screen and (max-width: 745px) {
+    .refund h3{
+        font-size: 24px;
+        line-height: 35px;
+        width: 100%;
+    }
+    .refund{
+        padding: 24px;
+    }
+    .refund-card{
+        min-width: 312px;
+    }
+  }

@@ -1,0 +1,38 @@
+.testimonial{
+    height: 172px;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 36px 128px;
+    background-color: #F9EBFC;
+}
+.testi{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.testi > div{
+    display: flex;
+    flex-direction: column;
+}
+.testi > div h2{
+    font-size: 40px;
+    font-weight: 500;
+}
+.testi > div p{
+    font-size: 24px;
+    font-weight: 400;
+    color: #686972;
+}
+/* .testi1,.testi2,.testi3{
+    border-right: 1px solid #F4D6F8;
+    height: 100px;
+} */
+
+
+@media screen and (max-width: 950px) {
+    .testimonial{
+        display: none;
+    }
+  }
