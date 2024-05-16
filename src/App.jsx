@@ -14,6 +14,9 @@ function App() {
 
   return (
     <>
+      {/* 
+        Please ignore the icons and colors
+       */}
       <Header />
       <Navbar />
       <Hero />
