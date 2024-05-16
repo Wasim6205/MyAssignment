@@ -28,6 +28,7 @@
     text-align: right;
     line-height: 24px;
     border: none;
+    background: none;
     color: rgba(153,46,157,1);
     cursor: pointer;
 }
