@@ -16,7 +16,7 @@ const Step = () => {
         <div className="step-cards">
           <div className="step-card">
             <h4 className="step-card-heading">
-              Step 1: Enroll into your favorite course for only $1,499
+              Step 1: Enroll into your favorite course for only ₹1,499
             </h4>
             <div className="step-card-subheading">
               <h5>2</h5>
@@ -28,7 +28,7 @@ const Step = () => {
           </div>
           <div className="step-card">
             <h4 className="step-card-heading">
-              Step 2: Enroll into your favorite course for only $1,499
+              Step 2: Complete Course & Assignments within 2 Years!
             </h4>
             <div className="step-card-subheading">
               <h5>2</h5>
@@ -40,7 +40,7 @@ const Step = () => {
           </div>
           <div className="step-card">
             <h4 className="step-card-heading">
-              Step 3: Enroll into your favorite course for only $1,499
+              Step 3: Receive 100% Refund upon completion
             </h4>
             <div className="step-card-subheading">
               <h5>100%</h5>

@@ -6,6 +6,8 @@
     padding: 24px 128px;
     align-items: center;
     background-color: #FFFFFF;
+    position: sticky;
+    top: 0;
 }
 .logo{
     width: 45px;

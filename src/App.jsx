@@ -22,7 +22,7 @@ function App() {
       <Refund />
       <Step />
       <Company />
-      {/* <Certificate /> */}
+      <Certificate />
       <Enroll />
     </>
   )

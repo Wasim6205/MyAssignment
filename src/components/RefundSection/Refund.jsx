@@ -10,7 +10,7 @@ const Refund = () => {
             <h4>100% Refund Offer</h4>
             <div className='input'>
                 <label>20 Seats Left</label>
-                <input type="range" />
+                <input type="range" className='accent' />
             </div>
             <p><CiClock2/> Offer ends in 10:00Mins</p>
         </div>

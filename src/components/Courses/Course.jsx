@@ -12,19 +12,19 @@ const courses = [
     {
         id: '2',
         course: "MERN Stack",
-        title: "Learn C++ for strong programming fundamentals",
+        title: "Master the MERN stack for high-demand projects.",
         border: true
     },
     {
         id: '3',
         course: "Data Structure & Algorithm",
-        title: "Learn C++ for strong programming fundamentals",
+        title: "Excel in Data Structures and Algorithms for interview success.",
         border: true
     },
     {
         id: '4',
         course: "Competitive Programming",
-        title: "Learn C++ for strong programming fundamentals",
+        title: "Excel in Data Structure and Algorithms for interview success.",
     },
 ]
 

@@ -44,6 +44,7 @@
   align-items: center;
   width: 254px;
   justify-content: center;
+  cursor: pointer;
 }
 .right {
   width: 50%;
