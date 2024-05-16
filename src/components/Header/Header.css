@@ -37,7 +37,7 @@
     border-radius: 14px;
     color: white;
     padding: 12px 24px 12px 24px;
-    background: linear-gradient(rgba(182,59,190,1)100%, rgba(153,46,157,1)100%);
+    background-image: linear-gradient(#b73bbe, #9747ff);
     cursor: pointer;
 }
 
